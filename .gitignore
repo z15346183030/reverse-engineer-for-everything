@@ -1,0 +1,21 @@
+# 依赖与虚拟环境
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 密钥与敏感配置（2026-10-21 补充：公开仓库防泄露）
+.env
+.env.*
+*.env
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+id_rsa*
+id_ed25519*
+.gh-token
